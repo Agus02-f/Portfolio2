@@ -1,0 +1,132 @@
+#formulario {
+    background-color: #181818;
+    color: #fff;
+    padding: 0 1.5em;
+}
+
+.contenedor {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.logo__form {
+    text-align: center;
+    font-size: 3em;
+}
+
+.contacto-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contacto-wrapper>* {
+    padding: 1em;
+}
+
+.contacto-form {
+    background-color: #222222;
+}
+
+.contacto-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contacto-form {
+    form {
+        p {
+            margin: 0;
+            padding: 1em;
+        }
+    }
+}
+
+// hacer un extend acá
+
+.contacto-form {
+    form {
+        button {
+            width: 100%;
+            padding: .7em;
+            border: none;
+            background: none;
+            outline: 0;
+            color: #fff;
+            border-bottom: 1px solid #d63031;
+        }
+    }
+}
+
+.contacto-form {
+    form {
+        input {
+            width: 100%;
+            padding: .7em;
+            border: none;
+            background: none;
+            outline: 0;
+            color: #fff;
+            border-bottom: 1px solid #d63031;
+        }
+    }
+}
+
+.contacto-form {
+    form {
+        textarea {
+            width: 100%;
+            padding: .7em;
+            border: none;
+            outline: 0;
+            color: #fff;
+            border-bottom: 1px solid #d63031;
+        }
+    }
+}
+
+.contacto-form {
+    form {
+        button {
+            background: #b70e21;
+            border: 0;
+            text-transform: uppercase;
+            padding: 1em;
+        }
+    }
+}
+
+.contacto-form form button {
+    background: #b70e21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contacto-form form button:hover,
+.contacto-form form button:focus {
+    background: #d63031;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+.contacto-info {
+    background-color: #000;
+}
+
+.contacto-info h4,
+.contacto-info ul,
+.contacto-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.contacto-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacto-info ul li {
+    padding: .3em;
+}

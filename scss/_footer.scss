@@ -1,0 +1,30 @@
+footer {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    p{
+        margin: 0;
+        color: rgb(165, 110, 216);
+        font-weight: bold;
+    }
+}
+
+footer {
+    a{
+        padding-right: 10px;
+        padding-left: 12px;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+}
+
+footer {
+    &:hover {
+        color: black;
+    }
+}
