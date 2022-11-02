@@ -36,11 +36,15 @@ header a {
   text-decoration: none;
   font-weight: bold;
   color: #a56ed8; }
+  header a:hover {
+    color: black;
+    transform: scale(1.5);
+    transition: all .3 ease; }
 
-header:hover {
+header a:hover {
   color: black;
   transform: scale(1.5);
-  transition: all .3s ease; }
+  transition: all .3 none; }
 
 #hero {
   display: flex;
@@ -92,7 +96,7 @@ footer:hover {
 #sobre-mi .container {
   text-align: center;
   padding: 200px 12px;
-  color: darkviolet;
+  color: #1b004b;
   font-size: 2em; }
 
 #lenguajes {
@@ -165,37 +169,16 @@ footer:hover {
   margin: 0;
   padding: 1em; }
 
-.contacto-form form button {
-  width: 100%;
-  padding: .7em;
-  border: none;
-  background: none;
-  outline: 0;
-  color: #fff;
-  border-bottom: 1px solid #d63031; }
-
-.contacto-form form input {
-  width: 100%;
-  padding: .7em;
-  border: none;
-  background: none;
-  outline: 0;
-  color: #fff;
-  border-bottom: 1px solid #d63031; }
-
+.contacto-form form button,
+.contacto-form form input,
 .contacto-form form textarea {
   width: 100%;
   padding: .7em;
   border: none;
+  background: none;
   outline: 0;
   color: #fff;
   border-bottom: 1px solid #d63031; }
-
-.contacto-form form button {
-  background: #b70e21;
-  border: 0;
-  text-transform: uppercase;
-  padding: 1em; }
 
 .contacto-form form button {
   background: #b70e21;
@@ -218,6 +201,10 @@ footer:hover {
 .contacto-info p {
   text-align: center;
   margin: 0 0 1rem 0; }
+
+.contacto-info ul {
+  list-style: none;
+  padding: 0; }
 
 .contacto-info ul {
   list-style: none;

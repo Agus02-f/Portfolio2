@@ -35,13 +35,20 @@ header {
         text-decoration: none;
         font-weight: bold;
         color: rgb(165, 110, 216);
+        &:hover {
+            color: black;
+            transform: scale(1.5);
+            transition: all .3 ease;
+        }
     }
 }
 
 header {
-    &:hover {
-        color: black;
-        transform: scale(1.5);
-        transition: all .3s ease;
+    a {
+        &:hover {
+            color: black;
+            transform: scale(1.5);
+            transition: all .3 none;
+        }
     }
 }
