@@ -1,6 +1,6 @@
 #formulario {
     background-color: #181818;
-    color: #fff;
+    color: $base-color;
     padding: 0 1.5em;
 }
 
@@ -43,8 +43,6 @@
     }
 }
 
-// hacer un extend acá
-
 .contacto-form form button,
 .contacto-form form input,
 .contacto-form form textarea {
@@ -53,7 +51,7 @@
     border: none;
     background: none;
     outline: 0;
-    color: #fff;
+    color: $base-color;
     border-bottom: 1px solid #d63031;
     resize: none;
 }
@@ -68,7 +66,7 @@
 .contacto-form form button:hover,
 .contacto-form form button:focus {
     background: #d63031;
-    color: #fff;
+    color: $base-color;
     transition: background-color 1s ease-out;
     outline: 0;
 }
@@ -82,11 +80,6 @@
 .contacto-info p {
     text-align: center;
     margin: 0 0 1rem 0;
-}
-
-.contacto-info ul {
-    list-style: none;
-    padding: 0;
 }
 
 .contacto-info {
