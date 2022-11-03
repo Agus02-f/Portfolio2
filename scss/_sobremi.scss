@@ -4,7 +4,7 @@
             rgba(0, 0, 0, 0.5)), url("../img/papel-min.jpg");
     color: black;
     font-weight: bold;
-    height: 90vh;
+    height: 86.5vh;
 }
 
 .container {
@@ -14,16 +14,28 @@
     }
 }
 
-#sobre-mi .container {
-    text-align: center;
-    padding: 200px 12px;
-}
-
 #sobre-mi {
     .container {
         text-align: center;
         padding: 200px 12px;
         color: #1b004b;
         font-size: 2em;
+    }
+}
+
+#sobre-mi {
+    .container {
+        h2 {
+            position: static;
+            padding: 1em 0 0 0;
+        }
+    }
+
+    p {
+        padding: 3em 0 5em 0;
+    }
+
+    img {
+        padding: 0;
     }
 }

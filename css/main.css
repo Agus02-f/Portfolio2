@@ -39,12 +39,7 @@ header a {
   header a:hover {
     color: black;
     transform: scale(1.5);
-    transition: all .3 ease; }
-
-header a:hover {
-  color: black;
-  transform: scale(1.5);
-  transition: all .3 none; }
+    transition: all .3s ease; }
 
 #hero {
   display: flex;
@@ -75,15 +70,14 @@ footer a {
   padding-left: 12px;
   text-decoration: none;
   font-size: 1.5em; }
-
-footer:hover {
-  color: black; }
+  footer a:hover {
+    color: #000; }
 
 #sobre-mi {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/papel-min.jpg");
   color: black;
   font-weight: bold;
-  height: 90vh; }
+  height: 86.5vh; }
 
 .container img {
   width: 400px;
@@ -91,13 +85,19 @@ footer:hover {
 
 #sobre-mi .container {
   text-align: center;
-  padding: 200px 12px; }
-
-#sobre-mi .container {
-  text-align: center;
   padding: 200px 12px;
   color: #1b004b;
   font-size: 2em; }
+
+#sobre-mi .container h2 {
+  position: static;
+  padding: 1em 0 0 0; }
+
+#sobre-mi p {
+  padding: 3em 0 5em 0; }
+
+#sobre-mi img {
+  padding: 0; }
 
 #lenguajes {
   background-color: #1e1e1e;
@@ -150,7 +150,8 @@ footer:hover {
 
 .logo__form {
   text-align: center;
-  font-size: 3em; }
+  font-size: 3em;
+  padding: 0 0 1em 0; }
 
 .contacto-wrapper {
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3); }
@@ -178,7 +179,8 @@ footer:hover {
   background: none;
   outline: 0;
   color: #fff;
-  border-bottom: 1px solid #d63031; }
+  border-bottom: 1px solid #d63031;
+  resize: none; }
 
 .contacto-form form button {
   background: #b70e21;
@@ -235,7 +237,8 @@ footer:hover {
     padding: 10px; }
   #sobre-mi .container {
     display: flex;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    padding: 200px 12px 0 12px; }
   #sobre-mi .texto {
     width: 50%;
     max-width: 600px;

@@ -20,11 +20,8 @@ footer {
         padding-left: 12px;
         text-decoration: none;
         font-size: 1.5em;
-    }
-}
-
-footer {
-    &:hover {
-        color: black;
+        &:hover {
+            color: #000;
+        }
     }
 }

@@ -38,17 +38,7 @@ header {
         &:hover {
             color: black;
             transform: scale(1.5);
-            transition: all .3 ease;
-        }
-    }
-}
-
-header {
-    a {
-        &:hover {
-            color: black;
-            transform: scale(1.5);
-            transition: all .3 none;
+            transition: all .3s ease;
         }
     }
 }
