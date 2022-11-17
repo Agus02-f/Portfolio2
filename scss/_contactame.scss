@@ -1,5 +1,5 @@
 #formulario {
-    background-color: #181818;
+    background-color: #4D3266;
     color: $base-color;
     padding: 0 1.5em;
 }
@@ -52,12 +52,12 @@
     background: none;
     outline: 0;
     color: $base-color;
-    border-bottom: 1px solid #d63031;
+    border-bottom: 1px solid #8A2BE2;
     resize: none;
 }
 
 .contacto-form form button {
-    background: #b70e21;
+    background: #8A2BE2;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -65,7 +65,7 @@
 
 .contacto-form form button:hover,
 .contacto-form form button:focus {
-    background: #d63031;
+    background: #000000;
     color: $base-color;
     transition: background-color 1s ease-out;
     outline: 0;

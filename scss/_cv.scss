@@ -1,10 +1,10 @@
 #cv {
-    background: #333;
+    background: #4D3266;
 }
 
 #cv {
     .container {
-        height: 90vh;
+        height: 95vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -14,18 +14,16 @@
 
 .container {
     h2 {
-        position: relative;
-        bottom: 100px;
+        color: $base-color;
+        font-size: 3em;
     }
-}
 
-.img__cv {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("../img/sobremi-min.png");
-    background-size: cover;
-    background-position: center center;
-    height: 320px;
-    width: 380px;
-    border-radius: 25px;
+    .pdf {
+        text-decoration: none;
+        color: $base-color;
+        font-size: 2em;
+        &:hover {
+            color: #000;
+        }
+    }
 }

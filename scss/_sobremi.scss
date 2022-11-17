@@ -1,14 +1,12 @@
 #sobre-mi {
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("../img/papel-min.jpg");
+    background-color: #4D3266;
     color: black;
     font-weight: bold;
-    height: 86.5vh;
+    height: 95vh;
 }
 
 .container {
-    img {
+    .sobremi_img {
         width: 400px;
         padding-top: 100px;
     }
@@ -18,7 +16,7 @@
     .container {
         text-align: center;
         padding: 200px 12px;
-        color: #1b004b;
+        color: $base-color;
         font-size: 2em;
     }
 }

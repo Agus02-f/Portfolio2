@@ -75,10 +75,8 @@
         }
     }
 
-    .container {
-        img {
-            display: none;
-        }
+    .sobremi_img {
+        display: none;
     }
 
     #lenguajes {
@@ -173,6 +171,13 @@
         }
     }
 
+    .container {
+        .sobremi_img {
+            width: 13em;
+            padding: 0%;
+        }
+    }
+
     #sobre-mi {
         .container {
             p {
@@ -188,6 +193,13 @@
                 position:static;
                 padding: 1em 0 0 0;
             }
+        }
+    }
+
+    .container {
+        h2 {
+            font-size: 2em;
+            padding: 0 0 5em 0;
         }
     }
 }
@@ -232,6 +244,17 @@
             padding: 0%;
         }
     }
+
+    .cv_pdf {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .cv_pdf {
+        width: 65%;
+    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
@@ -240,4 +263,9 @@
             padding: 200px 12px 0 12px;
         }
     }
+
+    .cv_pdf {
+        width: 35%;
+    }
+
 }

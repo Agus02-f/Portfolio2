@@ -77,19 +77,19 @@ footer a {
     color: #000; }
 
 #sobre-mi {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/papel-min.jpg");
+  background-color: #4D3266;
   color: black;
   font-weight: bold;
-  height: 86.5vh; }
+  height: 95vh; }
 
-.container img {
+.container .sobremi_img {
   width: 400px;
   padding-top: 100px; }
 
 #sobre-mi .container {
   text-align: center;
   padding: 200px 12px;
-  color: #1b004b;
+  color: #fff;
   font-size: 2em; }
 
 #sobre-mi .container h2 {
@@ -103,7 +103,7 @@ footer a {
   padding: 0; }
 
 #lenguajes {
-  background-color: #1e1e1e;
+  background-color: #4D3266;
   color: #fff;
   text-align: center;
   padding: 1em; }
@@ -114,34 +114,33 @@ footer a {
 
 .lenguajes__titulo {
   text-align: center;
-  background-color: #1e1e1e;
+  background-color: #4D3266;
   color: #fff;
   font-size: 2.3em; }
 
 #cv {
-  background: #333; }
+  background: #4D3266; }
 
 #cv .container {
-  height: 90vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
 
 .container h2 {
-  position: relative;
-  bottom: 100px; }
+  color: #fff;
+  font-size: 3em; }
 
-.img__cv {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/sobremi-min.png");
-  background-size: cover;
-  background-position: center center;
-  height: 320px;
-  width: 380px;
-  border-radius: 25px; }
+.container .pdf {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2em; }
+  .container .pdf:hover {
+    color: #000; }
 
 #formulario {
-  background-color: #181818;
+  background-color: #4D3266;
   color: #fff;
   padding: 0 1.5em; }
 
@@ -182,18 +181,18 @@ footer a {
   background: none;
   outline: 0;
   color: #fff;
-  border-bottom: 1px solid #d63031;
+  border-bottom: 1px solid #8A2BE2;
   resize: none; }
 
 .contacto-form form button {
-  background: #b70e21;
+  background: #8A2BE2;
   border: 0;
   text-transform: uppercase;
   padding: 1em; }
 
 .contacto-form form button:hover,
 .contacto-form form button:focus {
-  background: #d63031;
+  background: #000000;
   color: #fff;
   transition: background-color 1s ease-out;
   outline: 0; }
@@ -256,7 +255,7 @@ footer a {
     height: 500px;
     width: 400px;
     border-radius: 25px; }
-  .container img {
+  .sobremi_img {
     display: none; }
   #lenguajes {
     display: grid;
@@ -312,12 +311,18 @@ footer a {
   .container img {
     width: 90%;
     padding-top: 0%; }
+  .container .sobremi_img {
+    width: 13em;
+    padding: 0%; }
   #sobre-mi .container p {
     font-size: 1em;
     padding: 2em 0 2em 0; }
   #sobre-mi .container h2 {
     position: static;
-    padding: 1em 0 0 0; } }
+    padding: 1em 0 0 0; }
+  .container h2 {
+    font-size: 2em;
+    padding: 0 0 5em 0; } }
 
 @media screen and (min-width: 375px) and (max-width: 425px) {
   #sobre-mi .container {
@@ -335,8 +340,16 @@ footer a {
 @media screen and (max-width: 1024px) {
   #sobre-mi .container {
     font-size: 1.5em;
-    padding: 0%; } }
+    padding: 0%; }
+  .cv_pdf {
+    width: 50%; } }
+
+@media screen and (max-width: 768px) {
+  .cv_pdf {
+    width: 65%; } }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   #sobre-mi .container {
-    padding: 200px 12px 0 12px; } }
+    padding: 200px 12px 0 12px; }
+  .cv_pdf {
+    width: 35%; } }
